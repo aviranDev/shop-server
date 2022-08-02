@@ -1,0 +1,11 @@
+@local = http://localhost:3900/api 
+
+GET {{local}}/orders/daily-sum
+
+###
+
+GET {{local}}/sales/display-distinct
+
+###
+
+GET {{local}}/sales/daily-sum

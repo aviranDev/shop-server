@@ -1,0 +1,17 @@
+@local = http://localhost:3900/api 
+
+GET {{local}}/carts/add-to-cart/62d57d59c6ee226d05e29dfa
+
+###
+
+GET {{local}}/carts/display-cart
+
+###
+GET {{local}}/carts/checkout
+
+###
+
+GET {{local}}/carts/display-top-sales
+
+###
+GET {{local}}/carts/display-sales

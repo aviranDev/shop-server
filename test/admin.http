@@ -1,0 +1,36 @@
+@local = http://localhost:3900/api 
+
+POST {{local}}/products/create
+Content-Type: application/json
+
+{
+  "title": "test sdasdasdasdasd",
+  "price": 200,
+  "description": "dd"
+}
+
+###
+
+PUT {{local}}/products/update/62cd4ceecf248836b90e0a9b
+Content-Type: application/json
+
+{
+  "title": "test35235325325",
+  "price": 150,
+  "description": "sadasdasdasdas"
+}
+
+###
+
+GET {{local}}/products/display-all
+
+###
+
+GET {{local}}/products/display-product/62cd4c7ecf248836b90e0a96
+
+###
+DELETE {{local}}/products/delete-product/62cd4c7ecf248836b90e0a96
+
+###
+
+GET {{local}}/products/display-top-5
